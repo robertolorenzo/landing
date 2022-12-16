@@ -7,12 +7,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 main{
-    
-
-   
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 header{
     display: flex;
@@ -20,6 +18,7 @@ header{
     justify-content: space-between;
     padding: 15px 100px;
     align-items: center;
+    margin: 0  auto;
   
 }
 .logo{
@@ -52,20 +51,28 @@ header{
     padding: 5px 20px;
     border-radius: 5px;
     margin-top: 10px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    padding: 25px;
 }
 
 .hero h1, .hero p{
     color: white;
 }
-.heroimage img{
-    width: 300px;
+.heroimage p{
+    width: 600px;
+    height: 200px;
+    border: 2px solid white;
+    background-color:gray;
 }
 .information{
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 25px;
-    padding: 100px;
+    padding: 25px 100px;
     
 
 }
@@ -75,6 +82,7 @@ header{
 
 .tarjeta img{
     width: 150px;
+    height: 150px;
     overflow: hidden;
     border: 2px solid blue;
     border-radius: 15px;
@@ -91,15 +99,29 @@ header{
 .calltoaction{
     
     background-color: #3882F6;
-    padding: 100px;
     color: white;
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 10px;
 }
 
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 40px;
     background-color: #1F2937;
     color: white;
+}
+
+.button__signup button{
+    color:white;
+    background-color:#3882F6 ;
+    padding: 5px 25px;
+    border: 2px solid white;
+    
 }
