@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    
+
+   
+    
+}
+header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+  
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    color:lightgrey
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+}
+.info{
+    width: 350px;
+}
+.info button{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero h1, .hero p{
+    color: white;
+}
+.heroimage img{
+    width: 300px;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 100px;
+    
+
+}
+.tarjeta{
+    width: 150px;
+}
+
+.tarjeta img{
+    width: 150px;
+    overflow: hidden;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.quote{
+    background-color: #e5e7eB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltoaction{
+    
+    background-color: #3882F6;
+    padding: 100px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1F2937;
+    color: white;
+}
